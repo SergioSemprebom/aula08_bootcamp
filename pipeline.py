@@ -1,4 +1,6 @@
 from etl import pipeline_calcular_kpi_de_vendas_consolidado
+import pandas as pd
+
 
 pasta_argumento: str = 'data'
 formato_de_saida: list = ["csv", "parquet"]

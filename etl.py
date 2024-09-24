@@ -20,7 +20,7 @@ def calcular_kpi_de_total_de_vendas(df: pd.DataFrame) -> pd.DataFrame:
 # uma funcao que da load em csv ou parquet
 
 # DICA DE MILHOES -> se quiser ficar testanto as FUNCTIONS
-# Funçao extrair_dados
+# Funçao extrair_dados'''
 '''if __name__ == "__main__":
     pasta = "pasta"
     print(extrair_dados(path=pasta))'''
@@ -29,3 +29,7 @@ if __name__ == "__main__":
     pasta_argumento = "data"
     data_frame = extrair_dados_e_consolidar(path=pasta_argumento)
     print(calcular_kpi_de_total_de_vendas(data_frame))
+
+
+
+    
